@@ -34,6 +34,7 @@ h2 {
 #menu,
 #logo {
     line-height: 75px;
+    margin-left: 30px;
 }
 
 #menu li {
@@ -61,7 +62,7 @@ h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    
+
     position: relative;
 }
 
@@ -112,4 +113,29 @@ h2 {
 
     position: absolute;
 
+}
+
+/*club ethos*/
+#club-ethos{
+    height: 600px;
+}
+
+#left-about{
+    float: left;
+    padding-top: 30px;
+    width: 33%;
+    background-color: blue;
+}
+
+#right-about{
+    float: right;
+    padding-top: 30px;
+    width: 33%;
+    background-color: silver
+}
+
+#center-about{
+    margin: 0 auto;
+    width: 33%;
+    background-color: green
 }
