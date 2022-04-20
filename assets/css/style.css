@@ -124,18 +124,48 @@ h2 {
     float: left;
     padding-top: 30px;
     width: 33%;
-    background-color: blue;
+    
 }
 
 #right-about{
     float: right;
     padding-top: 30px;
     width: 33%;
-    background-color: silver
+    
 }
 
 #center-about{
     margin: 0 auto;
     width: 33%;
     background-color: green
+}
+
+hr{
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin 5px 0;
+}
+
+.left-about-heading{
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading{
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2{
+    text-align: right;
+}
+
+.right-about-heading p{
+    text-align: right;
 }
