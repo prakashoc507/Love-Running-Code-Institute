@@ -204,3 +204,19 @@ hr{
     overflow: hidden;
 
 }
+
+#times div{
+    color: #fafafa;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.6);
+    width:20%;
+    height: 300px;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+#times h2{
+    color: #fafafa;
+}
