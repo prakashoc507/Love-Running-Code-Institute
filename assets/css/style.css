@@ -241,3 +241,50 @@ footer{
     margin: 1%;
     color: #3a3a3a;
 }
+
+/*gallery*/
+
+#photos{
+clear: both;
+line-height: 0;
+column-count: 4;
+column-gap: 0;
+}
+
+#photos img{
+    width: 100%;
+}
+
+/*media queries*/
+
+/*for larger to medium sized screens from 1200px wide and down*/
+
+@media screen and (max-width: 1200px) {
+#club-ethos {
+    width: 65%;
+    height: 1200px;
+    margin: 0 auto;
+}    
+
+#welcom{
+    padding: 30px 0;
+    margin: 0;
+}
+
+#left-about, #right-about {
+width: 100%;
+float: left;
+padding: 0;
+}
+
+#center-about{
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+
+hr{
+    display: none;
+}
+}
